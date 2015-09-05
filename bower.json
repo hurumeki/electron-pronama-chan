@@ -1,0 +1,18 @@
+{
+  "name": "electron-pronama-chan",
+  "version": "0.0.1",
+  "authors": [
+    "hurumeki"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.0"
+  }
+}

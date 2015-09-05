@@ -1,0 +1,26 @@
+body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#tool {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  background-color: rgba( 64, 64, 64, 0 );
+  -webkit-app-region: drag;
+}
+body:hover #tool {
+  background-color: rgba( 64, 64, 64, 1 );
+}
